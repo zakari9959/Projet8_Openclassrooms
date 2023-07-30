@@ -1,0 +1,9 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+footer nav a {
+  padding: 20px;
+}/*# sourceMappingURL=Footer.css.map */

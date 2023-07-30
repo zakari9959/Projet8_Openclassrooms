@@ -1,0 +1,22 @@
+[
+  {
+    "name": "HTML",
+    "description": "Description des compétences"
+  },
+  {
+    "name": "CSS",
+    "description": "Description des compétences"
+  },
+  {
+    "name": "Javascript",
+    "description": "Description des compétences"
+  },
+  {
+    "name": "ReactJS",
+    "description": "Description des compétences"
+  },
+  {
+    "name": "React",
+    "description": "Description des compétences"
+  }
+]

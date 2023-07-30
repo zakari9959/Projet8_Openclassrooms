@@ -1,0 +1,54 @@
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+  border-radius: 20px;
+  border: #041729 solid 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.project .carousel {
+  position: relative;
+  height: 300px;
+}
+.project .carousel__image {
+  transition: transform 0.5s ease;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.project .carousel__image .slide-left {
+  transform: translateX(-100%);
+}
+.project .carousel__image .slide-right {
+  transform: translateX(100%);
+}
+.project .carousel__button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 25px;
+  cursor: pointer;
+}
+.project .carousel__button--left {
+  left: 0;
+  transform: scaleX(-1) translateY(-50%);
+}
+.project .carousel__button--right {
+  right: 0;
+}
+.project .carousel__count {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  border: 1px;
+  padding: 3px;
+  margin-bottom: 5px;
+}/*# sourceMappingURL=Project.css.map */

@@ -1,0 +1,62 @@
+[
+  {
+    "title": "Booki",
+    "description": "Intégration d'une maquette pour un site d'agence de voyage",
+    "usedSkills": ["HTML", "CSS", "Figma", "Pixel Perfect", "balisage SEO"],
+    "link": "https://github.com/zakari9959/Projet2_Openclassrooms",
+    "pictures": [
+      "../../assets/bookiscreen1.webp",
+      "../../assets/bookiscreen2.webp",
+      "../../assets/bookiscreen3.webp"
+    ]
+  },
+  {
+    "title": "Portfolio d'architecte",
+    "description": "Conception d'une page web dynamique avec Javascript",
+    "usedSkills": ["Javascript"],
+    "link": "https://github.com/zakari9959/Projet3_Openclassrooms",
+    "pictures": [
+      "../../assets/bookiscreen1.webp",
+      "../../assets/bookiscreen2.webp",
+      "../../assets/bookiscreen3.webp"
+    ]
+  },
+  {
+    "title": "Site de photographe",
+    "description": "Débugage et optimisation d'un site de photographe",
+    "usedSkills": [
+      "SEO",
+      "Accessibilité",
+      "Core Web Vitals",
+      "Bonnes pratiques"
+    ],
+    "link": "https://github.com/zakari9959/Projet5_Openclassrooms",
+    "pictures": [
+      "../../assets/bookiscreen1.webp",
+      "../../assets/bookiscreen2.webp",
+      "../../assets/bookiscreen3.webp"
+    ]
+  },
+  {
+    "title": "Site de location immobilière",
+    "description": "Création d'un site de location immobilière en utilisant ReactJS",
+    "usedSkills": ["ReactJS", "Create React App", "React-Router", "Sass"],
+    "link": "https://github.com/zakari9959/Projet6_Openclassrooms",
+    "pictures": [
+      "../../assets/bookiscreen1.webp",
+      "../../assets/bookiscreen2.webp",
+      "../../assets/bookiscreen3.webp"
+    ]
+  },
+  {
+    "title": "Site de location immobilière",
+    "description": "Création d'un site de location immobilière en utilisant ReactJS",
+    "usedSkills": ["ReactJS"],
+    "link": "https://github.com/zakari9959/Projet6_Openclassrooms",
+    "pictures": [
+      "../../assets/bookiscreen1.webp",
+      "../../assets/bookiscreen2.webp",
+      "../../assets/bookiscreen3.webp"
+    ]
+  }
+]
