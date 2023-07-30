@@ -1,0 +1,10 @@
+#skills ul {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+#skills ul li {
+  flex-basis: calc(50% - 10px);
+  margin: 5px;
+}/*# sourceMappingURL=SkillsList.css.map */

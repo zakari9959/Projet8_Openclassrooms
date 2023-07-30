@@ -4,7 +4,7 @@
 body {
   margin: 0 20px;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Roboto', 'Montserrat', sans-serif;
   height: 100%;
   max-width: 500px;
 }
@@ -15,8 +15,4 @@ ul {
 }
 img {
   max-width: 100%;
-}
-a {
-  text-decoration: none;
-  color: black;
 }

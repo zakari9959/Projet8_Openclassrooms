@@ -1,22 +1,27 @@
 [
   {
     "name": "HTML",
-    "description": "Description des compétences"
+    "description": "Description des compétences",
+    "symbolUrl": ""
   },
   {
     "name": "CSS",
-    "description": "Description des compétences"
+    "description": "Description des compétences",
+    "symbolUrl": ""
   },
   {
     "name": "Javascript",
-    "description": "Description des compétences"
+    "description": "Description des compétences",
+    "symbolUrl": ""
   },
   {
     "name": "ReactJS",
-    "description": "Description des compétences"
+    "description": "Description des compétences",
+    "symbolUrl": ""
   },
   {
     "name": "React",
-    "description": "Description des compétences"
+    "description": "Description des compétences",
+    "symbolUrl": ""
   }
 ]

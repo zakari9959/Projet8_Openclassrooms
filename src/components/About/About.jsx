@@ -1,5 +1,6 @@
 import React from 'react';
 import aboutData from '../../data/aboutData.json';
+import './About.css';
 const About = () => {
   return (
     <section id="about">

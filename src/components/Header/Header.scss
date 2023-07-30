@@ -4,6 +4,7 @@ header {
   align-items: center;
   & h1 {
     margin: 60px 0 30px;
+    color: #041729;
   }
   & nav {
     display: flex;
@@ -12,6 +13,7 @@ header {
     min-width: 100%;
     justify-content: space-between;
     & a {
+      text-decoration: none;
       text-align: center;
       flex-basis: 48%;
       border-radius: 20px;
