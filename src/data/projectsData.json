@@ -1,29 +1,33 @@
 [
   {
     "title": "Booki",
-    "description": "Intégration d'une maquette pour un site d'agence de voyageIntégration d'une maquette pour un site d'agence de voyagIntégration d'une maquette pour un site d'agence de voyageIntégration d'une maquette pour un site d'agence de voyageIntégration d'une maquette pour un site d'agence de voyage",
+    "description": "Intégration d'une maquette Figma pour un site d'agence de voyage. Une des contraintes était d'utiliser seulement HTML et CSS, ce qui m'a permis d'apprendre à utiliser correctement les balises sémantiques ainsi que Flexbox.",
     "usedSkills": ["HTML", "CSS", "Figma", "Pixel Perfect", "balisage SEO"],
     "link": "https://github.com/zakari9959/Projet2_Openclassrooms",
     "pictures": [
-      "../../assets/bookiscreen1.webp",
-      "../../assets/bookiscreen2.webp",
-      "../../assets/bookiscreen3.webp"
+      "../../assets/bookiscreen/bookiscreen1.webp",
+      "../../assets/bookiscreen/bookiscreen2.webp",
+      "../../assets/bookiscreen/bookiscreen3.webp"
     ]
   },
   {
     "title": "Portfolio d'architecte",
-    "description": "Conception d'une page web dynamique avec Javascript",
-    "usedSkills": ["Javascript"],
+    "description": "Conception d'une page web dynamique avec Javascript. Ma tâche était de coder la partie front-end et de la connecter à une API. Avec elle, j'ai pu créer la page de connexion/inscription ainsi qu'une modale permettant d'ajouter/supprimer une image du portfolio.",
+    "usedSkills": ["Javascript", "Appel API", "CRUM"],
     "link": "https://github.com/zakari9959/Projet3_Openclassrooms",
     "pictures": [
-      "../../assets/bookiscreen1.webp",
-      "../../assets/bookiscreen2.webp",
-      "../../assets/bookiscreen3.webp"
+      "../../assets/archiscreen/archiscreen1.webp",
+      "../../assets/archiscreen/archiscreen2.webp",
+      "../../assets/archiscreen/archiscreen3.webp",
+      "../../assets/archiscreen/archiscreen4.webp",
+      "../../assets/archiscreen/archiscreen5.webp",
+      "../../assets/archiscreen/archiscreen6.webp",
+      "../../assets/archiscreen/archiscreen7.webp"
     ]
   },
   {
     "title": "Site de photographe",
-    "description": "Débugage et optimisation d'un site de photographe",
+    "description": "Débugage et optimisation d'un site de photographe. Ce projet consistait à faire en sorte que le site déjà existant passe la barre des 90 dans les quatres catégories de Google Lighthouse(Performance, Accessibilité, Bonne pratiques, SEO), ainsi que de corriger les deux bugs demandés. Etant donné que le client est photographe, les images était de très bonnes qualité et très lourde ce qui ralentissait le site et j'ai donc dû les convertir en format .webp et réduire leur taille.",
     "usedSkills": [
       "SEO",
       "Accessibilité",
@@ -32,20 +36,24 @@
     ],
     "link": "https://github.com/zakari9959/Projet5_Openclassrooms",
     "pictures": [
-      "../../assets/bookiscreen1.webp",
-      "../../assets/bookiscreen2.webp",
-      "../../assets/bookiscreen3.webp"
+      "../../assets/photographescreen/photographescreen1.webp",
+      "../../assets/photographescreen/photographescreen2.webp",
+      "../../assets/photographescreen/photographescreen3.webp",
+      "../../assets/photographescreen/photographescreen4.webp",
+      "../../assets/photographescreen/photographescreen5.webp",
+      "../../assets/photographescreen/photographescreen6.webp",
+      "../../assets/photographescreen/photographescreen7.webp"
     ]
   },
   {
     "title": "Site de location immobilière",
-    "description": "Création d'un site de location immobilière en utilisant ReactJS",
+    "description": "Création d'un site de location immobilière en utilisant ReactJS. Il fallait partir simplement d'une maquette et utiliser des composants réutilisables. Ce projet m'as permis d'apprendre le JSX ainsi que différents 'package' notamment React-Router , Eslint et Prettier pour du code propre,  ",
     "usedSkills": ["ReactJS", "Create React App", "React-Router", "Sass"],
     "link": "https://github.com/zakari9959/Projet6_Openclassrooms",
     "pictures": [
-      "../../assets/bookiscreen1.webp",
-      "../../assets/bookiscreen2.webp",
-      "../../assets/bookiscreen3.webp"
+      "../../assets/bookiscreen/bookiscreen1.webp",
+      "../../assets/bookiscreen/bookiscreen2.webp",
+      "../../assets/bookiscreen/bookiscreen3.webp"
     ]
   },
   {
@@ -54,9 +62,9 @@
     "usedSkills": ["ReactJS"],
     "link": "https://github.com/zakari9959/Projet6_Openclassrooms",
     "pictures": [
-      "../../assets/bookiscreen1.webp",
-      "../../assets/bookiscreen2.webp",
-      "../../assets/bookiscreen3.webp"
+      "../../assets/bookiscreen/bookiscreen1.webp",
+      "../../assets/bookiscreen/bookiscreen2.webp",
+      "../../assets/bookiscreen/bookiscreen3.webp"
     ]
   }
 ]

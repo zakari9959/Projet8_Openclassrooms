@@ -2,26 +2,31 @@
   {
     "name": "HTML",
     "description": "Description des compétences",
-    "symbolUrl": ""
+    "symbolUrl": "../../assets/logos/html.png"
   },
   {
     "name": "CSS",
     "description": "Description des compétences",
-    "symbolUrl": ""
+    "symbolUrl": "../../assets/logos/css.png"
   },
   {
     "name": "Javascript",
     "description": "Description des compétences",
-    "symbolUrl": ""
+    "symbolUrl": "../../assets/logos/js.png"
   },
   {
     "name": "ReactJS",
     "description": "Description des compétences",
-    "symbolUrl": ""
+    "symbolUrl": "../../assets/logos/react.png"
   },
   {
-    "name": "React",
+    "name": "Figma",
     "description": "Description des compétences",
-    "symbolUrl": ""
+    "symbolUrl": "../../assets/logos/figma.png"
+  },
+  {
+    "name": "NodeJS",
+    "description": "Description des compétences",
+    "symbolUrl": "../../assets/logos/nodejs.png"
   }
 ]

@@ -6,7 +6,7 @@
   align-items: center;
   margin: 5px 0 30px;
   border-radius: 25px;
-  border: black solid 5px;
+  border: black solid 4px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   background-color: #041729;
 }
@@ -86,4 +86,4 @@
   padding: 15px;
   margin: 20px 0;
   border-radius: 25px;
-}/*# sourceMappingURL=Project.css.map */
+} /*# sourceMappingURL=Project.css.map */

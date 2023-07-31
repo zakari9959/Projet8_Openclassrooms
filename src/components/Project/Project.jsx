@@ -6,6 +6,7 @@ const Project = ({ title, description, usedSkills, link, pictures }) => {
   const [images] = useState(pictures);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [slideDirection, setSlideDirection] = useState('slide-left');
+  const [carouselIntervalTime, setCarouselIntervalTime] = useState(3000);
 
   const goToNextSlide = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
@@ -20,12 +21,15 @@ const Project = ({ title, description, usedSkills, link, pictures }) => {
   };
 
   useEffect(() => {
-    const carouselInterval = setInterval(goToNextSlide, 3000);
+    const carouselInterval = setInterval(goToNextSlide, carouselIntervalTime);
     return () => clearInterval(carouselInterval);
-  }, [images]);
+  }, [currentIndex, carouselIntervalTime]);
 
   const currentImage = images[currentIndex];
 
+  const changeIntervalTo10Sec = () => {
+    setCarouselIntervalTime(10000);
+  };
   return (
     <li className="project">
       <div className="carousel">
@@ -40,7 +44,10 @@ const Project = ({ title, description, usedSkills, link, pictures }) => {
               src={fleche} //Gauche
               alt="Cliquer sur le bouton précédent"
               className="carousel__button carousel__button--left"
-              onClick={goToPrevSlide}
+              onClick={() => {
+                changeIntervalTo10Sec();
+                goToPrevSlide();
+              }}
             />
             <p className="carousel__count">
               {currentIndex + 1}/{images.length}
@@ -49,7 +56,10 @@ const Project = ({ title, description, usedSkills, link, pictures }) => {
               src={fleche}
               alt="Cliquer sur le bouton suivant"
               className="carousel__button carousel__button--right"
-              onClick={goToNextSlide}
+              onClick={() => {
+                changeIntervalTo10Sec();
+                goToNextSlide();
+              }}
             />
           </div>
         )}
