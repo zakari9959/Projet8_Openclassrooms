@@ -17,6 +17,9 @@ const About = () => {
       <p>
         <strong>Disponibilité:</strong> {aboutData.availablity}
       </p>
+      <p>
+        <strong>Permis B</strong>
+      </p>
     </section>
   );
 };

@@ -1,0 +1,21 @@
+.navbar {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.navbar a {
+  text-decoration: none;
+  text-align: center;
+  flex-basis: calc(50% - 20px);
+  border-radius: 20px;
+  color: #ffffff;
+  background-color: #041729;
+  padding: 10px 0;
+  margin: 10px;
+}
+
+@media screen and (min-width: 501px) {
+  .navbar {
+    width: 80%;
+  }
+}/*# sourceMappingURL=Navbar.css.map */

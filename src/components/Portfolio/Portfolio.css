@@ -5,4 +5,16 @@
 }
 #portfolio .projectlist {
   width: 100%;
+}
+
+@media screen and (min-width: 501px) {
+  #portfolio {
+    margin-top: 20px;
+  }
+  #portfolio .projectlist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
 }/*# sourceMappingURL=Portfolio.css.map */

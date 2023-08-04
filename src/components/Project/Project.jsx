@@ -30,9 +30,13 @@ const Project = ({ title, description, usedSkills, link, pictures }) => {
   const changeIntervalTo10Sec = () => {
     setCarouselIntervalTime(10000);
   };
+  const resetCarouselIntervalTime = () => {
+    setCarouselIntervalTime(3000);
+  };
+
   return (
     <li className="project">
-      <div className="carousel">
+      <div className="carousel" onBlur={resetCarouselIntervalTime}>
         <img
           src={currentImage}
           alt=""
@@ -64,17 +68,19 @@ const Project = ({ title, description, usedSkills, link, pictures }) => {
           </div>
         )}
       </div>
-      <h3>{title}</h3>
-      <p>{description}</p>
-      <h3>Technologies utilisées</h3>
-      <ul className="usedskills">
-        {usedSkills.map((usedSkill, index) => (
-          <li key={index}>{usedSkill}</li>
-        ))}
-      </ul>
-      <a href={link} className="liengit">
-        Lien vers le répo Github
-      </a>
+      <div className="project__text">
+        <h3>{title}</h3>
+        <p>{description}</p>
+        <h3>Technologies utilisées</h3>
+        <ul className="usedskills">
+          {usedSkills.map((usedSkill, index) => (
+            <li key={index}>{usedSkill}</li>
+          ))}
+        </ul>
+        <a href={link} className="liengit">
+          Lien vers le répo Github
+        </a>
+      </div>
     </li>
   );
 };

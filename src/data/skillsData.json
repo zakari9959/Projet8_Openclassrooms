@@ -1,32 +1,56 @@
 [
   {
     "name": "HTML",
-    "description": "Description des compétences",
+    "description": [
+      "Structure sémantique",
+      "Mises en page responsives",
+      "Accessibilitité",
+      "Référencement Google et SEO"
+    ],
     "symbolUrl": "../../assets/logos/html.png"
   },
   {
     "name": "CSS",
-    "description": "Description des compétences",
+    "description": [
+      "CSS Sass",
+      "Flexbox et CSS Grid",
+      "Nomenclature BEM",
+      "Animations"
+    ],
     "symbolUrl": "../../assets/logos/css.png"
   },
+
   {
     "name": "Javascript",
-    "description": "Description des compétences",
+    "description": [
+      "Manipulation du DOM",
+      "Fonctions modernes (ES6+)",
+      "Fonctions Asynchrones",
+      "Promises et appel API"
+    ],
     "symbolUrl": "../../assets/logos/js.png"
   },
   {
     "name": "ReactJS",
-    "description": "Description des compétences",
+    "description": [
+      "Hooks",
+      "React Router",
+      "Cycle de vie",
+      "Tests Automatisés"
+    ],
     "symbolUrl": "../../assets/logos/react.png"
   },
-  {
-    "name": "Figma",
-    "description": "Description des compétences",
-    "symbolUrl": "../../assets/logos/figma.png"
-  },
+
   {
     "name": "NodeJS",
-    "description": "Description des compétences",
+    "description": [
+      "CRUD",
+      "Gestion MongoDB",
+      "Middleware personnalisé",
+      "Règles Sécurité",
+      "Green IT",
+      "Création d'API"
+    ],
     "symbolUrl": "../../assets/logos/nodejs.png"
   }
 ]

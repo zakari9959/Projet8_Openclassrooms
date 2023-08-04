@@ -10,7 +10,7 @@ import SkillsList from './components/SkillsList/SkillsList';
 class App extends Component {
   render() {
     return (
-      <div>
+      <div id="homepage">
         <Header />
         <Portfolio />
         <SkillsList />

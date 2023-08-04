@@ -13,7 +13,7 @@
   {
     "title": "Portfolio d'architecte",
     "description": "Conception d'une page web dynamique avec Javascript. Ma tâche était de coder la partie front-end et de la connecter à une API. Avec elle, j'ai pu créer la page de connexion/inscription ainsi qu'une modale permettant d'ajouter/supprimer une image du portfolio.",
-    "usedSkills": ["Javascript", "Appel API", "CRUM"],
+    "usedSkills": ["Javascript", "Appel API", "CRUD"],
     "link": "https://github.com/zakari9959/Projet3_Openclassrooms",
     "pictures": [
       "../../assets/archiscreen/archiscreen1.webp",
@@ -47,24 +47,36 @@
   },
   {
     "title": "Site de location immobilière",
-    "description": "Création d'un site de location immobilière en utilisant ReactJS. Il fallait partir simplement d'une maquette et utiliser des composants réutilisables. Ce projet m'as permis d'apprendre le JSX ainsi que différents 'package' notamment React-Router , Eslint et Prettier pour du code propre,  ",
-    "usedSkills": ["ReactJS", "Create React App", "React-Router", "Sass"],
+    "description": "Création d'un site de location immobilière en utilisant ReactJS. Il fallait partir d'une maquette et utiliser des composants réutilisables. Ce projet m'a permis d'apprendre le JSX ainsi que différents 'package' notamment React-Router , Eslint et Prettier pour du code propre, l'utilisation des Hooks useState et useEffect.",
+    "usedSkills": [
+      "ReactJS",
+      "Create React App",
+      "React-Router",
+      "Sass",
+      "Hooks"
+    ],
     "link": "https://github.com/zakari9959/Projet6_Openclassrooms",
     "pictures": [
-      "../../assets/bookiscreen/bookiscreen1.webp",
-      "../../assets/bookiscreen/bookiscreen2.webp",
-      "../../assets/bookiscreen/bookiscreen3.webp"
+      "../../assets/kasascreen/kasascreen1.webp",
+      "../../assets/kasascreen/kasascreen2.webp",
+      "../../assets/kasascreen/kasascreen3.webp",
+      "../../assets/kasascreen/kasascreen4.webp",
+      "../../assets/kasascreen/kasascreen5.webp",
+      "../../assets/kasascreen/kasascreen6.webp",
+      "../../assets/kasascreen/kasascreen7.webp"
     ]
   },
   {
-    "title": "Site de location immobilière",
-    "description": "Création d'un site de location immobilière en utilisant ReactJS",
-    "usedSkills": ["ReactJS"],
+    "title": "Site de notation de livres",
+    "description": "Création d'un serveur NodeJS et une API Rest. Le site permet d'ajouter/supprimer/modifier un livre ainsi que de le noter. J'ai dû créer une base de données MongoDB pour gérer l'enregistrement des livres ainsi que les utilisateurs. Qui dit utilisateurs, dit sécurité donc j'ai mis en place un middleware d'authentification et utiliser les jwt et bcrypt.",
+    "usedSkills": ["NodeJS", "Express", "API Rest", "CRUD", "Sécurité"],
     "link": "https://github.com/zakari9959/Projet6_Openclassrooms",
     "pictures": [
-      "../../assets/bookiscreen/bookiscreen1.webp",
-      "../../assets/bookiscreen/bookiscreen2.webp",
-      "../../assets/bookiscreen/bookiscreen3.webp"
+      "../../assets/grimmoirescreen/grimmoirescreen1.webp",
+      "../../assets/grimmoirescreen/grimmoirescreen2.webp",
+      "../../assets/grimmoirescreen/grimmoirescreen3.webp",
+      "../../assets/grimmoirescreen/grimmoirescreen4.webp",
+      "../../assets/grimmoirescreen/grimmoirescreen5.webp"
     ]
   }
 ]

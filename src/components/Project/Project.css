@@ -1,13 +1,8 @@
 .project {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
   margin: 5px 0 30px;
   border-radius: 25px;
-  border: black solid 4px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: black solid 5px;
+  box-shadow: 0px 5px 14px 8px rgba(0, 0, 0, 0.5);
   background-color: #041729;
 }
 .project .carousel {
@@ -19,8 +14,8 @@
   transition: transform 0.5s ease;
   width: 100%;
   height: 100%;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-radius: 20px 20px 0 0;
+  border-bottom: 3px solid black;
 }
 .project .carousel__image .slide-left {
   transform: translateX(-100%);
@@ -48,27 +43,33 @@
   left: 50%;
   transform: translateX(-50%);
   color: white;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.2);
   border-radius: 20px;
   border: 1px;
   padding: 3px;
   margin-bottom: 5px;
 }
-.project h3 {
+.project__text {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.project__text h3 {
   color: black;
   background-color: white;
   padding: 10px 30px;
   border-radius: 25px;
   text-align: center;
 }
-.project p {
+.project__text p {
   text-align: center;
   background-color: white;
   padding: 10px 15px;
   border-radius: 25px;
   margin: 10px;
 }
-.project .usedskills {
+.project__text .usedskills {
   background-color: white;
   border-radius: 15px;
   display: flex;
@@ -77,13 +78,33 @@
   flex-wrap: wrap;
   margin: 10px;
 }
-.project .usedskills li {
+.project__text .usedskills li {
   padding: 10px;
 }
-.project .liengit {
+.project__text .liengit {
   color: white;
   background-color: black;
   padding: 15px;
   margin: 20px 0;
   border-radius: 25px;
-} /*# sourceMappingURL=Project.css.map */
+}
+
+@media screen and (min-width: 501px) {
+  .project {
+    display: flex;
+    margin: 15px;
+  }
+  .project .carousel {
+    min-height: 100%;
+    height: 300px;
+    width: 100%;
+  }
+  .project .carousel__image {
+    border-radius: 20px 0 0 20px;
+    border-bottom: 0;
+    border-right: 5px solid black;
+  }
+  .project__text {
+    width: 70%;
+  }
+}/*# sourceMappingURL=Project.css.map */
