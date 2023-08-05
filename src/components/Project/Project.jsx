@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import fleche from '../../../public/docs/assets/fleche--droite.svg';
+import fleche from '../../../public/assets/fleche--droite.svg';
 import './Project.css';
 
 const Project = ({ title, description, usedSkills, link, pictures }) => {

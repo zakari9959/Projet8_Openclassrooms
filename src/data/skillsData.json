@@ -7,7 +7,7 @@
       "Accessibilitité",
       "Référencement Google et SEO"
     ],
-    "symbolUrl": "../../../docs/assets/logos/html.png"
+    "symbolUrl": "../../../assets/html.png"
   },
   {
     "name": "CSS",
@@ -17,7 +17,7 @@
       "Nomenclature BEM",
       "Animations"
     ],
-    "symbolUrl": "../../../docs/assets/logos/css.png"
+    "symbolUrl": "../../../assets/css.png"
   },
 
   {
@@ -28,7 +28,7 @@
       "Fonctions Asynchrones",
       "Promises et appel API"
     ],
-    "symbolUrl": "../../../docs/assets/logos/js.png"
+    "symbolUrl": "../../../assets/js.png"
   },
   {
     "name": "ReactJS",
@@ -38,7 +38,7 @@
       "Cycle de vie",
       "Tests Automatisés"
     ],
-    "symbolUrl": "../../../docs/assets/logos/react.png"
+    "symbolUrl": "../../../assets/react.png"
   },
 
   {
@@ -51,6 +51,6 @@
       "Green IT",
       "Création d'API"
     ],
-    "symbolUrl": "../../../docs/assets/logos/nodejs.png"
+    "symbolUrl": "../../../assets/nodejs.png"
   }
 ]
