@@ -5,9 +5,9 @@
     "usedSkills": ["HTML", "CSS", "Figma", "Pixel Perfect", "balisage SEO"],
     "link": "https://github.com/zakari9959/Projet2_Openclassrooms",
     "pictures": [
-      "../../../assets/bookiscreen1.webp",
-      "../../../assets/bookiscreen2.webp",
-      "../../../assets/bookiscreen3.webp"
+      "../../docs/assets/bookiscreen1.webp",
+      "../../docs/assets/bookiscreen2.webp",
+      "../../docs/assets/bookiscreen3.webp"
     ]
   },
   {
@@ -16,13 +16,13 @@
     "usedSkills": ["Javascript", "Appel API", "CRUD"],
     "link": "https://github.com/zakari9959/Projet3_Openclassrooms",
     "pictures": [
-      "../../../assets/archiscreen1.webp",
-      "../../../assets/archiscreen2.webp",
-      "../../../assets/archiscreen3.webp",
-      "../../../assets/archiscreen4.webp",
-      "../../../assets/archiscreen5.webp",
-      "../../../assets/archiscreen6.webp",
-      "../../../assets/archiscreen7.webp"
+      "../../docs/assets/archiscreen1.webp",
+      "../../docs/assets/archiscreen2.webp",
+      "../../docs/assets/archiscreen3.webp",
+      "../../docs/assets/archiscreen4.webp",
+      "../../docs/assets/archiscreen5.webp",
+      "../../docs/assets/archiscreen6.webp",
+      "../../docs/assets/archiscreen7.webp"
     ]
   },
   {
@@ -36,13 +36,13 @@
     ],
     "link": "https://github.com/zakari9959/Projet5_Openclassrooms",
     "pictures": [
-      "../../../assets/photographescreen1.webp",
-      "../../../assets/photographescreen2.webp",
-      "../../../assets/photographescreen3.webp",
-      "../../../assets/photographescreen4.webp",
-      "../../../assets/photographescreen5.webp",
-      "../../../assets/photographescreen6.webp",
-      "../../../assets/photographescreen7.webp"
+      "../../docs/assets/photographescreen1.webp",
+      "../../docs/assets/photographescreen2.webp",
+      "../../docs/assets/photographescreen3.webp",
+      "../../docs/assets/photographescreen4.webp",
+      "../../docs/assets/photographescreen5.webp",
+      "../../docs/assets/photographescreen6.webp",
+      "../../docs/assets/photographescreen7.webp"
     ]
   },
   {
@@ -57,13 +57,13 @@
     ],
     "link": "https://github.com/zakari9959/Projet6_Openclassrooms",
     "pictures": [
-      "../../../assets/kasascreen1.webp",
-      "../../../assets/kasascreen2.webp",
-      "../../../assets/kasascreen3.webp",
-      "../../../assets/kasascreen4.webp",
-      "../../../assets/kasascreen5.webp",
-      "../../../assets/kasascreen6.webp",
-      "../../../assets/kasascreen7.webp"
+      "../../docs/assets/kasascreen1.webp",
+      "../../docs/assets/kasascreen2.webp",
+      "../../docs/assets/kasascreen3.webp",
+      "../../docs/assets/kasascreen4.webp",
+      "../../docs/assets/kasascreen5.webp",
+      "../../docs/assets/kasascreen6.webp",
+      "../../docs/assets/kasascreen7.webp"
     ]
   },
   {
@@ -72,11 +72,11 @@
     "usedSkills": ["NodeJS", "Express", "API Rest", "CRUD", "Sécurité"],
     "link": "https://github.com/zakari9959/Projet6_Openclassrooms",
     "pictures": [
-      "../../../assets/grimmoirescreen1.webp",
-      "../../../assets/grimmoirescreen2.webp",
-      "../../../assets/grimmoirescreen3.webp",
-      "../../../assets/grimmoirescreen4.webp",
-      "../../../assets/grimmoirescreen5.webp"
+      "../../docs/assets/grimmoirescreen1.webp",
+      "../../docs/assets/grimmoirescreen2.webp",
+      "../../docs/assets/grimmoirescreen3.webp",
+      "../../docs/assets/grimmoirescreen4.webp",
+      "../../docs/assets/grimmoirescreen5.webp"
     ]
   }
 ]
