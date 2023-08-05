@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import fleche from '../../docs/assets/fleche--droite.svg';
+import fleche from '../../../public/docs/assets/fleche--droite.svg';
 
 import './Project.css';
 
