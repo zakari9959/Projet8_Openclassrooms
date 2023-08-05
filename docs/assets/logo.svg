@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+
+  <rect x="0" y="0" width="200" height="200" fill="#ffffff" />
+
+  <text x="30" y="120" font-family="Arial" font-size="100" fill="#041729">Z</text>
+
+  <text x="90" y="120" font-family="Arial" font-size="100" fill="#1098f7">R</text>
+</svg>
