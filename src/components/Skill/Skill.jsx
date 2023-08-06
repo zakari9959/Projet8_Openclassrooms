@@ -5,7 +5,10 @@ const Skill = ({ name, description, symbolUrl }) => {
   return (
     <li className="skill">
       <h2>{name}</h2>
-      <img src={symbolUrl} alt="symbole de la compétences"></img>
+      <img
+        src={process.env.PUBLIC_URL + symbolUrl}
+        alt="symbole de la compétences"
+      ></img>
       <ul className="skill__description">
         {description.map((desc, index) => (
           <li key={index} className="skill__description__desc">

@@ -1,22 +1,19 @@
 import React, { useState, useEffect } from 'react';
-import fleche from '../../../public/docs/assets/fleche--droite.svg';
-
 import './Project.css';
 
 const Project = ({ title, description, usedSkills, link, pictures }) => {
-  const [images] = useState(pictures);
+  const [imagesIndex] = useState(pictures);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [slideDirection, setSlideDirection] = useState('slide-left');
   const [carouselIntervalTime, setCarouselIntervalTime] = useState(3000);
-
   const goToNextSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % imagesIndex.length);
     setSlideDirection('slide-left');
   };
 
   const goToPrevSlide = () => {
     setCurrentIndex(
-      (prevIndex) => (prevIndex - 1 + images.length) % images.length
+      (prevIndex) => (prevIndex - 1 + imagesIndex.length) % imagesIndex.length
     );
     setSlideDirection('slide-right');
   };
@@ -26,7 +23,7 @@ const Project = ({ title, description, usedSkills, link, pictures }) => {
     return () => clearInterval(carouselInterval);
   }, [currentIndex, carouselIntervalTime]);
 
-  const currentImage = images[currentIndex];
+  const currentImageIndex = imagesIndex[currentIndex];
 
   const changeIntervalTo10Sec = () => {
     setCarouselIntervalTime(10000);
@@ -34,19 +31,18 @@ const Project = ({ title, description, usedSkills, link, pictures }) => {
   const resetCarouselIntervalTime = () => {
     setCarouselIntervalTime(3000);
   };
-
   return (
     <li className="project">
       <div className="carousel" onBlur={resetCarouselIntervalTime}>
         <img
-          src={currentImage}
+          src={process.env.PUBLIC_URL + currentImageIndex}
           alt=""
           className={`carousel__image ${slideDirection}`}
         />
-        {images.length > 1 && (
+        {imagesIndex.length > 1 && (
           <div>
             <img
-              src={fleche} //Gauche
+              src={process.env.PUBLIC_URL + '/docs/assets/fleche--droite.svg'} //Gauche
               alt="Cliquer sur le bouton précédent"
               className="carousel__button carousel__button--left"
               onClick={() => {
@@ -55,10 +51,10 @@ const Project = ({ title, description, usedSkills, link, pictures }) => {
               }}
             />
             <p className="carousel__count">
-              {currentIndex + 1}/{images.length}
+              {currentIndex + 1}/{imagesIndex.length}
             </p>
             <img
-              src={fleche}
+              src={process.env.PUBLIC_URL + '/docs/assets/fleche--droite.svg'}
               alt="Cliquer sur le bouton suivant"
               className="carousel__button carousel__button--right"
               onClick={() => {
