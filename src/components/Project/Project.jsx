@@ -68,15 +68,24 @@ const Project = ({ title, description, usedSkills, link, pictures }) => {
       <div className="project__text">
         <h3>{title}</h3>
         <p>{description}</p>
-        <h3>Technologies utilisées</h3>
-        <ul className="usedskills">
-          {usedSkills.map((usedSkill, index) => (
-            <li key={index}>{usedSkill}</li>
-          ))}
-        </ul>
-        <a href={link} className="liengit">
-          Lien vers le répo Github
-        </a>
+        <div className="project__text--flex">
+          <div className="usedskills--flex">
+            <h3>Technologies utilisées</h3>
+            <ul className="usedskills">
+              {usedSkills.map((usedSkill, index) => (
+                <li key={index}>{usedSkill}</li>
+              ))}
+            </ul>
+          </div>
+          <div className="liengit--flex">
+            <a href={link} className="liengit">
+              Lien vers le répo Github
+            </a>
+            <a href={link} className="liengit">
+              Lien vers le répo Github
+            </a>
+          </div>
+        </div>
       </div>
     </li>
   );

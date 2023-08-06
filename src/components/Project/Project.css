@@ -16,6 +16,9 @@
   height: 100%;
   border-radius: 20px 20px 0 0;
   border-bottom: 3px solid black;
+  -o-object-fit: contain;
+     object-fit: contain;
+  background-color: black;
 }
 .project .carousel__image .slide-left {
   transform: translateX(-100%);
@@ -81,12 +84,24 @@
 .project__text .usedskills li {
   padding: 10px;
 }
+.project__text .usedskills--flex {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .project__text .liengit {
   color: white;
   background-color: black;
   padding: 15px;
-  margin: 20px 0;
+  margin: 10px 0;
   border-radius: 25px;
+  text-align: center;
+}
+.project__text .liengit--flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @media screen and (min-width: 501px) {
@@ -96,15 +111,25 @@
   }
   .project .carousel {
     min-height: 100%;
-    height: 300px;
-    width: 100%;
   }
   .project .carousel__image {
     border-radius: 20px 0 0 20px;
     border-bottom: 0;
     border-right: 5px solid black;
   }
+  .project .usedskills--flex {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .project__text {
-    width: 70%;
+    width: 100%;
+  }
+  .project__text--flex {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 0 10px;
   }
 }/*# sourceMappingURL=Project.css.map */
