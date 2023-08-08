@@ -1,7 +1,7 @@
 [
   {
     "title": "Booki",
-    "description": "Intégration d'une maquette Figma pour un site d'agence de voyage. Une des contraintes était d'utiliser seulement HTML et CSS, ce qui m'a permis d'apprendre à utiliser correctement les balises sémantiques ainsi que Flexbox.",
+    "description": "Intégration d'une maquette Figma pour un site d'agence de voyage. Une des contraintes était d'utiliser seulement HTML et CSS, ce qui m'a permis d'apprendre à utiliser correctement les balises sémantiques ainsi que Flexbox. (1er trimestre 2023)",
     "usedSkills": ["HTML", "CSS", "Figma", "Pixel Perfect", "balisage SEO"],
     "link": "https://github.com/zakari9959/Projet2_Openclassrooms",
     "pictures": [
@@ -12,7 +12,7 @@
   },
   {
     "title": "Portfolio d'architecte",
-    "description": "Conception d'une page web dynamique avec Javascript. Ma tâche était de coder la partie front-end et de la connecter à une API. Avec elle, j'ai pu créer la page de connexion/inscription ainsi qu'une modale permettant d'ajouter/supprimer une image du portfolio.",
+    "description": "Conception d'une page web dynamique avec Javascript. Ma tâche était de coder la partie front-end et de la connecter à une API. Avec elle, j'ai pu créer la page de connexion/inscription ainsi qu'une modale permettant d'ajouter/supprimer une image du portfolio. (1er trimestre 2023)",
     "usedSkills": ["Javascript", "Appel API", "CRUD"],
     "link": "https://github.com/zakari9959/Projet3_Openclassrooms",
     "pictures": [
@@ -27,7 +27,7 @@
   },
   {
     "title": "Site de photographe",
-    "description": "Débugage et optimisation d'un site de photographe. Ce projet consistait à faire en sorte que le site déjà existant passe la barre des 90 dans les quatres catégories de Google Lighthouse(Performance, Accessibilité, Bonne pratiques, SEO), ainsi que de corriger les deux bugs demandés. Etant donné que le client est photographe, les images était de très bonnes qualité et très lourde ce qui ralentissait le site et j'ai donc dû les convertir en format .webp et réduire leur taille.",
+    "description": "Débugage et optimisation d'un site de photographe. Ce projet consistait à faire en sorte que le site déjà existant passe la barre des 90 dans les quatres catégories de Google Lighthouse(Performance, Accessibilité, Bonne pratiques, SEO), ainsi que de corriger les deux bugs demandés. Etant donné que le client est photographe, les images était de très bonnes qualité et très lourde ce qui ralentissait le site et j'ai donc dû les convertir en format .webp et réduire leur taille. (2eme trimestre 2023)",
     "usedSkills": [
       "SEO",
       "Accessibilité",
@@ -47,7 +47,7 @@
   },
   {
     "title": "Site de location immobilière",
-    "description": "Création d'un site de location immobilière en utilisant ReactJS. Il fallait partir d'une maquette et utiliser des composants réutilisables. Ce projet m'a permis d'apprendre le JSX ainsi que différents 'package' notamment React-Router , Eslint et Prettier pour du code propre, l'utilisation des Hooks useState et useEffect.",
+    "description": "Création d'un site de location immobilière en utilisant ReactJS. Il fallait partir d'une maquette et utiliser des composants réutilisables. Ce projet m'a permis d'apprendre le JSX ainsi que différents 'package' notamment React-Router , Eslint et Prettier pour du code propre, l'utilisation des Hooks useState et useEffect. (2eme trimestre 2023)",
     "usedSkills": [
       "ReactJS",
       "Create React App",
@@ -68,9 +68,9 @@
   },
   {
     "title": "Site de notation de livres",
-    "description": "Création d'un serveur NodeJS et une API Rest. Le site permet d'ajouter/supprimer/modifier un livre ainsi que de le noter. J'ai dû créer une base de données MongoDB pour gérer l'enregistrement des livres ainsi que les utilisateurs. Qui dit utilisateurs, dit sécurité donc j'ai mis en place un middleware d'authentification et utiliser les jwt et bcrypt.",
+    "description": "Création d'un serveur NodeJS et une API Rest. Le site permet d'ajouter/supprimer/modifier un livre ainsi que de le noter. J'ai dû créer une base de données MongoDB pour gérer l'enregistrement des livres ainsi que les utilisateurs. Qui dit utilisateurs, dit sécurité donc j'ai mis en place un middleware d'authentification et utiliser les jwt et bcrypt. (2eme trimestre 2023)",
     "usedSkills": ["NodeJS", "Express", "API Rest", "CRUD", "Sécurité"],
-    "link": "https://github.com/zakari9959/Projet6_Openclassrooms",
+    "link": "https://github.com/zakari9959/Projet7_Openclassrooms",
     "pictures": [
       "/docs/assets/grimmoirescreen1.webp",
       "/docs/assets/grimmoirescreen2.webp",

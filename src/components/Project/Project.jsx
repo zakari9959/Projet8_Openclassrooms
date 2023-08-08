@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import './Project.css';
 
-const Project = ({ title, description, usedSkills, link, pictures }) => {
+const Project = ({ title, description, usedSkills, link, link2, pictures }) => {
   const [imagesIndex] = useState(pictures);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [slideDirection, setSlideDirection] = useState('slide-left');
-  const [carouselIntervalTime, setCarouselIntervalTime] = useState(3000);
+  const [carouselIntervalTime] = useState(5000);
   const goToNextSlide = () => {
     setCurrentIndex((prevIndex) => (prevIndex + 1) % imagesIndex.length);
     setSlideDirection('slide-left');
@@ -25,18 +25,12 @@ const Project = ({ title, description, usedSkills, link, pictures }) => {
 
   const currentImageIndex = imagesIndex[currentIndex];
 
-  const changeIntervalTo10Sec = () => {
-    setCarouselIntervalTime(10000);
-  };
-  const resetCarouselIntervalTime = () => {
-    setCarouselIntervalTime(3000);
-  };
   return (
     <li className="project">
-      <div className="carousel" onBlur={resetCarouselIntervalTime}>
+      <div className="carousel">
         <img
           src={process.env.PUBLIC_URL + currentImageIndex}
-          alt=""
+          alt="Capture d'écran du projet dans un carousel"
           className={`carousel__image ${slideDirection}`}
         />
         {imagesIndex.length > 1 && (
@@ -46,7 +40,6 @@ const Project = ({ title, description, usedSkills, link, pictures }) => {
               alt="Cliquer sur le bouton précédent"
               className="carousel__button carousel__button--left"
               onClick={() => {
-                changeIntervalTo10Sec();
                 goToPrevSlide();
               }}
             />
@@ -58,7 +51,6 @@ const Project = ({ title, description, usedSkills, link, pictures }) => {
               alt="Cliquer sur le bouton suivant"
               className="carousel__button carousel__button--right"
               onClick={() => {
-                changeIntervalTo10Sec();
                 goToNextSlide();
               }}
             />
@@ -78,9 +70,6 @@ const Project = ({ title, description, usedSkills, link, pictures }) => {
             </ul>
           </div>
           <div className="liengit--flex">
-            <a href={link} className="liengit">
-              Lien vers le répo Github
-            </a>
             <a href={link} className="liengit">
               Lien vers le répo Github
             </a>

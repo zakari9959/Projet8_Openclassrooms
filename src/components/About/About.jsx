@@ -4,7 +4,7 @@ import './About.css';
 const About = () => {
   return (
     <section id="about">
-      <h2>A Propos</h2>
+      <h2>À Propos</h2>
       <p>
         <strong>Localisation:</strong> {aboutData.location}
       </p>
@@ -18,8 +18,16 @@ const About = () => {
         <strong>Disponibilité:</strong> {aboutData.availablity}
       </p>
       <p>
-        <strong>Permis B</strong>
+        <strong>{aboutData.permis}</strong>
       </p>
+      <div>
+        <strong>Études:</strong>
+        <ul className="formations">
+          {aboutData.formations.map((f, index) => (
+            <li key={index}>{f}</li>
+          ))}
+        </ul>
+      </div>
     </section>
   );
 };

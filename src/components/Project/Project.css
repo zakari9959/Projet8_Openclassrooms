@@ -83,6 +83,7 @@
 }
 .project__text .usedskills li {
   padding: 10px;
+  font-weight: 700;
 }
 .project__text .usedskills--flex {
   width: 100%;
@@ -104,7 +105,7 @@
   align-items: center;
 }
 
-@media screen and (min-width: 501px) {
+@media screen and (min-width: 800px) {
   .project {
     display: flex;
     margin: 15px;
@@ -131,5 +132,6 @@
     flex-direction: row;
     width: 100%;
     padding: 0 10px;
+    align-items: center;
   }
 }/*# sourceMappingURL=Project.css.map */

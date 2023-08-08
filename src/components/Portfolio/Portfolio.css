@@ -7,7 +7,7 @@
   width: 100%;
 }
 
-@media screen and (min-width: 501px) {
+@media screen and (min-width: 800px) {
   #portfolio {
     margin-top: 20px;
   }

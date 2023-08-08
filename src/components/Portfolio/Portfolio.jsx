@@ -15,6 +15,7 @@ const Portfolio = () => {
             description={project.description}
             usedSkills={project.usedSkills}
             link={project.link}
+            link2={project.link2}
             pictures={project.pictures}
           />
         ))}

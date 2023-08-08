@@ -81,6 +81,7 @@
       margin: 10px;
       & li {
         padding: 10px;
+        font-weight: 700;
       }
       &--flex {
         width: 100%;
@@ -104,7 +105,7 @@
     }
   }
 }
-@media screen and (min-width: 501px) {
+@media screen and (min-width: 800px) {
   .project {
     display: flex;
     margin: 15px;
@@ -129,6 +130,7 @@
         flex-direction: row;
         width: 100%;
         padding: 0 10px;
+        align-items: center;
       }
     }
   }

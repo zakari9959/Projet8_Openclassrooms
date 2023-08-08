@@ -3,5 +3,9 @@
   "age": "23",
   "langage": "Français, Anglais professionnel, Finnois bilingue",
   "availablity": "Immédiatement",
-  "permis": "Permis B"
+  "permis": "Permis B",
+  "formations": [
+    "Bac STI2D spécialité SIN (Sciences et Technologie de l'Industrie et du Développement Durable, Systèmes Informatique et Numérique)",
+    "Formation 'Développeur Intégrateur Web' OpenClassrooms 2023 RNCP de niveau 5"
+  ]
 }
